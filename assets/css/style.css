@@ -4,3 +4,17 @@
   box-sizing: border-box;
   border: 0;
 }
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+  height: 100vh;
+  margin: 0;
+  transition: background 0.2s linear;
+}
+
+body.dark{
+  background: #232c35;
+}
