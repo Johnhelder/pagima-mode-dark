@@ -23,3 +23,19 @@ body.dark{
   opacity: 0;
   position: absolute;
 }
+
+.label{
+  background-color: #111111;
+  border-radius: 50px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 5px;
+  position: relative;
+  height: 26px;
+  width: 50px;
+ transform: scale(1.5);
+}
