@@ -51,3 +51,7 @@ body.dark{
   transform: translateX(0px);
   transition: transform 0.2s linear;
 }
+
+.checkbox:checked + .label .bola{
+  transform: translateX(24px);
+}
